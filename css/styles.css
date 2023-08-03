@@ -663,6 +663,7 @@ img {
   display: inline-flex;
   margin-top: 16px;
   padding: 8px 24px;
+  gap: 16px;
   border: 1px solid black;
   border-radius: 4px;
   font-family: inherit;
@@ -750,10 +751,80 @@ img {
 
 /*--Modal Form*/
 
+.modal-header {
+  font-family: inherit;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--navyblue);
+}
+
 .form-modal {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: 72px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: inherit;
+  width: 360px;
+  height: 58px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  color: var(--slatecolor);
+}
+
+.label-comment {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 120px;
+  margin-bottom: 16px;
+}
+
+.conditions {
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+}
+
+.privacy-link {
+  font-family: inherit;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+}
+
+.modal-icon {
+  position: absolute;
+}
+
+.input-check {
+  background-color: var(--iriscolor);
+}
+
+.send-button {
+  padding: 16px 58px;
+  margin-top: 24px;
+  border-radius: 4px;
+  color: var(--whitecolor);
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.send-button:hover,
+.send-button:focus {
+  background-color: var(--oceancolor);
 }
