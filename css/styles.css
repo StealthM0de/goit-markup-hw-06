@@ -657,12 +657,12 @@ img {
   width: 264px;
   height: 40px;
   margin-right: 24px;
-  margin-top: 16px;
+  margin-top: 24px;
 }
 
 .button-subscribe {
   display: inline-flex;
-  margin-top: 16px;
+  margin-top: 24px;
   padding: 8px 24px;
   gap: 16px;
   border: 1px solid black;
