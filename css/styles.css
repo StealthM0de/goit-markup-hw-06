@@ -12,6 +12,7 @@
   --green: #31d0aa;
   --irisoverlay: #4d5ae5e4;
   --dairywhite: #fcfcfc;
+  --lightslatecolor: #8e8f99;
 }
 
 /*css reset*/
@@ -778,8 +779,62 @@ img {
   height: 58px;
   margin-bottom: 10px;
   font-family: inherit;
-  color: var(--slatecolor);
+  color: var(--lightslatecolor);
+  position: relative;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.label-icon {
+  position: absolute;
+  top: 22px;
+  left: 16px;
+  /* right: 0px; */
+  bottom: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* .label-icon:hover,
+.label-icon:focus {
+  color: var(--iriscolor);
+} */
+
+input {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  border-radius: 4px;
+  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+}
+
+.input-text:focus-within,
+.input-text:hover + .label-icon,
+.input-text:focus + .label-icon,
+.text-area:focus-within,
+.text-area:hover,
+.text-area:focus {
+  border-color: var(--iriscolor);
+  color: var(--navcolor);
+  fill: var(--iriscolor);
+}
+
+.input-text {
+  padding-left: 42px;
+  outline: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* .label .label-icon:focus-within,
+.label .label-icon:hover,
+.label .label-icon:focus {
+  color: var(--iriscolor);
+  border-color: var(--iriscolor);
+} */
 
 .label-comment {
   display: flex;
@@ -787,7 +842,29 @@ img {
   width: 360px;
   height: 120px;
   margin-bottom: 16px;
+  color: var(--lightslatecolor);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.48px;
 }
+
+.text-area {
+  border-radius: 4px;
+  border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
+}
+
+/* .text-area:focus,
+.text-area:hover,
+.text-area:focus-within {
+  color: var(--iriscolor);
+} */
+
+/* .text-area:hover,
+.text-area:focus {
+  color: var(--iriscolor);
+} */
 
 .conditions {
   font-family: inherit;
@@ -807,13 +884,10 @@ img {
   letter-spacing: 0.48px;
 }
 
-.modal-icon {
-  position: absolute;
-}
-
-.input-check {
-  background-color: var(--iriscolor);
-}
+/* .input-check:hover,
+.input-check:focus {
+  color: var(--iriscolor);
+} */
 
 .send-button {
   padding: 16px 58px;
