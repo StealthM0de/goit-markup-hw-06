@@ -815,13 +815,13 @@ input {
 }
 
 .form-input:focus-within,
-.form-input:hover + .form-field .icon,
-.form-input:focus + .form-field .icon,
+.form-input:hover + .form-hero .icon,
+.form-input:focus + .form-hero .icon,
 .form-textarea:focus-within,
 .form-textarea:hover,
 .form-textarea:focus {
   border-color: var(--iriscolor);
-  color: var(--navcolor);
+  /* color: var(--navcolor); */
   fill: var(--iriscolor);
 }
 
