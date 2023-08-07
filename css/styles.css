@@ -665,6 +665,7 @@ img {
   background-color: transparent;
   color: var(--whitecolor);
   border: 1px solid var(--whitecolor);
+  border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 264px;
   padding: 14px 16px;
