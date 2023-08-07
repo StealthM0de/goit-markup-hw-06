@@ -183,7 +183,7 @@
   <!--AggreCheck icon-->
 
   <symbol id="icon-checkmark" viewBox="0 0 32 32">
-  <path fill="#F4F4FD" d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
+  <path fill="#FCFCFC" d="M27 4l-15 15-7-7-5 5 12 12 20-20z"></path>
   </symbol>
 
 

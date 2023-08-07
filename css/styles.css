@@ -663,7 +663,6 @@ img {
   line-height: 24px;
   letter-spacing: 0.48px;
   background-color: transparent;
-  /* border-radius: 4px; */
   color: var(--whitecolor);
   border: 1px solid var(--whitecolor);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -671,25 +670,7 @@ img {
   padding: 14px 16px;
   height: 40px;
   margin: 16px 12px 0 0;
-  /* margin-right: 24px;
-  margin-top: 24px; */
 }
-
-/* .footer-form .button.primary {
-  display: inline-flex;
-  margin-top: 24px;
-  padding: 8px 24px;
-  gap: 16px;
-   border: 1px solid black;
-  border-radius: 4px;
-  font-family: inherit;
-  font-size: 16px;
-  background-color: var(--iriscolor);
-  color: var(--whitecolor);
-  cursor: pointer;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .footer-button {
   display: flex;
@@ -731,7 +712,6 @@ img {
   min-height: 584px;
   border-radius: 4px;
   background-color: var(--dairywhite);
-  /* padding: 0 24px; */
 
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -853,12 +833,12 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input {
+/* input {
   padding-top: 11px;
   padding-bottom: 11px;
   border-radius: 4px;
   border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.4));
-}
+} */
 
 .form-input {
   padding-left: 42px;
